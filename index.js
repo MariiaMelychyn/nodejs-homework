@@ -6,7 +6,9 @@ const {
     addContact,
   } = require('./contacts');
   
-  const program = new Command();
+
+
+const program = new Command();
 
 program
   .option('-a, --action <type>', 'choose action')
